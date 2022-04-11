@@ -1,0 +1,124 @@
+h1{
+    color: red;/* Para dar color al texto*/
+    background-color: rgb(00, 00, 00); /*para dar color al fondo del texto*/
+    font-family: 'comic sans ms'; /* Define el tipo de letra*/
+    text-align: center;
+    /* Establece la alineación del contenido de un elemento de bloque Uno y sólo uno de los siguientes valores:
+    left
+    right
+    center
+    justify
+    inherit */
+}
+p{
+    font-size: 1,5em;
+    /* La propiedad font-size especifica la dimensión de la letra. Este tamaño puede, a su vez, alterar el aspecto de alguna otra cosa, ya que se usa para calcular la longitud de las unidades em y ex.*/
+
+    line-height:1,5; 
+    /* La propiedad line-height establece la altura de una casilla remarcada por líneas. Comúnmente se usa para establecer la distancia entre líneas de texto. A nivel de elementos de bloque, define la altura mínima de las casillas encuadradas por líneas dentro del elemento. En elementos en linea no reemplazables, especifica la altura que se usa para calcular la altura de la casila encuadrada por líneas. */
+    
+    opacity: .80; /*Para dar opacidad al texto*/
+    /* La propiedad CSS opacity define la transparencia de un elemento, esto es, en qué grado se superpone el fondo al elemento.
+    Usar esta propiedad con un valor diferente a 1 situa al elemento en un nuevo contexto de apilamiento. */
+
+    font-size: 20px; /*Tamaño de la letra*/
+    font-style: italic; /*Estilo de la letra*/
+    font-weight: bold; /*Para poner la letra en negrita*/
+    text-transform:none; /*Para poner la letra en mayuscula o menuscula las primeras en mayusculas*/
+    text-decoration:none; /*para darle decoracion al texto (subrayado,tachado etc)*/
+    text-shadow: -3px 3px 3px red; /*Esto sirve para agregarle sombra valores(horizontal,vertical,desenfoque y color)*/
+    
+    letter-spacing: 2px;
+    /* La propiedad CSS de espaciado entre letras establece el comportamiento del espaciado horizontal entre caracteres de texto. Este valor se agrega al espaciado natural entre caracteres mientras se representa el texto. Los valores positivos de espaciado entre letras hacen que los caracteres se separen más, mientras que los valores negativos de espaciado entre letras acercan los caracteres. */
+
+    word-spacing: 4px;
+    /* La propiedad CSS de espacio entre palabras establece la longitud del espacio entre palabras y entre etiquetas. */
+}
+li{
+    font-weight: bold;
+    line-height: 1.5;
+}
+ol{
+    list-style-type: upper-roman;
+    /* El tipo de estilo de lista especifica la apariencia del listado. 
+    disc
+    un disco.
+    circle
+        un círculo.
+    square
+        un cuadrado.
+    decimal
+        números decimales empezando con 1.
+    decimal-leading-zero
+        números decimales empezando eventualmente por ceros (por ejemplo: 01, 02, 03, ..., 98, 99).
+    lower-roman
+        números romanos en minúscula (i, ii, iii, iv, v, etc.).
+    upper-roman
+        números romanos en mayúscula (I, II, III, IV, V, etc.).
+    lower-greek
+        letras griegas en minúscula alfa/α, beta/β, gamma/γ, ...
+    lower-latin
+        letras ASCII en minúscula (a, b, c, ... z).
+    upper-latin
+        letras ASCII en mayúscula (A, B, C, ... Z).
+    armenian
+        numeración armenia tradicional (ayb/ayp, ben/pen, gim/keem, ...).
+    georgian
+        numeración georgiana tradicional (an, ban, gan, ..., he, tan, in, in-an, ...).
+    lower-alpha
+        es igual que lower-latin.
+    upper-alpha
+        es igual que upper-latin.
+    none
+        nada.*/
+    list-style-position:outside ;
+    /* La posición de la lista (list-style-position) especifica donde será colocado el marcador de la lista en relación a la caja principal.
+
+    Valores
+
+    outside 
+        el marcador se encuentra fuera de la caja principal.
+    inside 
+        el marcador es la primera caja en línea dentro de la caja principal, después de la cual fluye el resto de los elementos.  */
+    list-style-image: url('/imagen/estrella20px.png');
+    /* La imagen de lista (list-style-image) define la imagen que será utilizada como marcador del listado. */
+}
+
+/* Seccion que se le da estilos a los link */
+
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+a:link{
+    color: #088a08;
+
+
+}
+a:visited{
+    color:#0000ff
+
+}
+a:focus{
+    border-bottom: 1px solid;
+    background: #088a08;
+
+}
+a:hover{
+    border-bottom: 1px solid;
+    background: #ff0000;
+
+}
+a:active{
+    color: #000000;
+
+}
+
+/* Se va a trabajar estilos para la pagina notascss.html*/
+
+.uno{
+    background: #088a08;
+    width: 400px;
+    height: 200px;
+}
