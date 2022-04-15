@@ -1,0 +1,32 @@
+body{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.box{
+    border: 2px solid rgb(79, 185, 227);
+    border-radius: 5px;
+    width: 200px;
+    height: 120px;
+    float: left;
+    margin-right: 15px;
+}
+.imagen{
+    width: 200px;
+    height: 120px;
+    
+}
+p{
+    line-height: 1.5;
+    text-align: justify;
+}
+.columnas{
+    column-width: 200px;
+}
+.flotante{
+    background: rgba(255, 0, 0,.5);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+
+}

@@ -121,4 +121,28 @@ a:active{
     background: #088a08;
     width: 400px;
     height: 200px;
+    padding: 20px;
+    border: 1px solid #000000;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.dos{
+    background: #ff0000;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 5px solid #ffff00;
+    border-style:groove;
+    border-radius: 20px;
+
+}
+.parrafo{
+    color: #ff0000;
+    padding: 20px;
+    background-color: #ffff00;
+    background-image: url("/imagen/estrella20px.png");
+    background-repeat: repeat-x;
+
+
 }
