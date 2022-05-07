@@ -1,0 +1,13 @@
+body{
+    font-family: Georgia;
+}
+.card{
+    background-color: steelblue;
+    color: white;
+    display: block;
+    width: auto;
+    max-width: 400px;
+    height: auto;
+    max-height: 500px;
+    overflow: auto;
+}

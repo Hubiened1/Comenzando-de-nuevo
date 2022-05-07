@@ -9,13 +9,26 @@
 </head>
 <body>
     <nav>
-        <button class="nav-boton" onclick="accion()">Menu</button>
-        <a href="#" class="nav-enlace desaparece">Inicio</a>
-        <a href="#" class="nav-enlace desaparece">Nosotros</a>
-        <a href="#" class="nav-enlace desaparece">Contactos</a>
-        <a href="#" class="nav-enlace desaparece">Empresas</a>
-        <a href="#" class="nav-enlace desaparece">Empresas</a>
-      </nav>
+        <ul class="menu-horizontal">
+            <li><a href="#">Inicio</a></li>
+            <li>
+                <a href="#">Cursos</a>
+                <ul class="menu-vertical">
+                    <li><a href="#">Html</a></li>
+                    <li><a href="#">Css</a></li>
+                    <li><a href="#">JavaScrip</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Inscripcion</a>
+                <ul class="menu-vertical">
+                    <li><a href="#">Mensual</a></li>
+                    <li><a href="#">Anual</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
 
 <a href="index.html">Pagina Principal</a>
 <script src="js/menusencillo.js"></script>

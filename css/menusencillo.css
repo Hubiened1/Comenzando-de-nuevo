@@ -1,44 +1,52 @@
-.nav-enlace{
-    background: #A3423C;
-    color: #fff;
-    padding: 5px;
-    display: inline-block;
-    text-decoration: none;
-    
-    
-  }
-  nav{
-    background: #40DFEF;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    
-  }
-  .nav-enlace:hover{
-    background: #035397;
-    color: #000;
-  }
-  .nav-boton{
-    background: #A3423C;
-    color: #fff;
-    padding: 5px 0;
-    border: 2px solid #fff;
-    display: none;
-  }
-  @media (max-width: 600px) {
-    nav{
-      background: #000;
-      flex-direction: column;
-      }
-    a{
-      
-      margin: 5px;
-      
-    }
-    .nav-boton{
-      display: inline-block;
-    }
-    .desaparece{
-      display: none;
-    }
-    }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'open Sans';
+}
+body{
+  background-image: url(/imagen/fondo.jpg);
+  background-size: cover;
+}
+nav{
+  max-width: 900px;
+  margin: auto;
+  background-color: #333;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.menu-horizontal{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+
+}
+.menu-horizontal>li>a{
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+.menu-horizontal>li:hover{
+  background-color: red;
+}
+.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+  display: block;
+
+}
+.menu-vertical li:hover{
+  background-color: black;
+}
+.menu-vertical li a{
+  display: block;
+  color: white;
+  padding: 15px 15px 15px 20px;
+}
